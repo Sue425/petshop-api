@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+  postgres:
+    image: postgres:12.3
+    ports:
+      - 5433:5432
+    environment:
+      POSTGRES_PASSWORD: h3sl0
+      POSTGRES_USER: zuzka
+      POSTGRES_DB: gw_project
+    volumes:
+      - ./1-init-schema.sql:/docker-entrypoint-initdb.d/init.sql
