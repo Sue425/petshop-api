@@ -14,3 +14,8 @@
 * mozna optimalizacia (cacheovanie zavislosti aplikacie)
 #### Admin rozhranie pre vytvaranie produktu
 * aj s jednoduchymi validaciami
+
+
+### Spustenie aplikacie lokalne
+1. v adresari projektu treba vykonat v prikazovom riadku prikaz: ``docker-compose up`` (treba mat spusteny Docker predtym)
+2. v IntelliJ treba otvorit cely adresar ako projekt a nasledne spustit server
